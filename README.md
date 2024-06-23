@@ -15,9 +15,9 @@ The processes is from Krish Naik Git and Git Hub Series.
 
 3. Thirdly we need to set up our basic configuration. This configuration is in respect to your user.username and user.emailid so that it will know where to commit it. We do this using:
 
- *git config --global user.name "John Doe"
+ 	*a. git config --global user.name "John Doe"
 
- *git config --global user.email johndoe@example.com
+ 	*git config --global user.email johndoe@example.com
 
 4. We can check git status using "git status"
 
@@ -39,3 +39,8 @@ The processes is from Krish Naik Git and Git Hub Series.
 12. Lastly we push our code to the repository using "git push origin main"
 
 13. If we have more than one file, we could add them by using "git add ."
+
+14. You could either add the file or restore the previous file,
+you could use "git restore (filename)" to restore the previous version if you feel you made mistake
+
+15. We use "git clone (link)" to make a copy of our repository in another folder
