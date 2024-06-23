@@ -15,8 +15,9 @@ The processes is from Krish Naik Git and Git Hub Series.
 
 3. Thirdly we need to set up our basic configuration. This configuration is in respect to your user.username and user.emailid so that it will know where to commit it. We do this using:
 
-git config --global user.name "John Doe"
-git config --global user.email johndoe@example.com
+ *git config --global user.name "John Doe"
+
+ *git config --global user.email johndoe@example.com
 
 4. We can check git status using "git status"
 
