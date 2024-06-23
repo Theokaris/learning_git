@@ -7,6 +7,7 @@ This is me following through on the process of using git and git hub for my data
 
 The processes is from Krish Naik Git and Git Hub Series. 
 
+
 ### The Tutorials Steps
 
 1. First we need to move to the directory containing the files we want to commit to git hub using "cd (directory path)"
