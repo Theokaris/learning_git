@@ -1,0 +1,7 @@
+## Git and Github Tutorial
+
+This is from the second video of the git and github tutorial series
+
+1. When a new document is added to the folder. When the status is checked using "git status", it displays this new document as untracked. If it is renamed, it says it's renamed, if it's deleted it says it's deleted. If modified it says modified. 
+
+2. We can stage the new documnet using the "git add ."
