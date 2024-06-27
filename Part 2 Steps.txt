@@ -6,14 +6,14 @@ This is from the second video of the git and github tutorial series
 1. When a new document is added to the folder. When the status is checked using "git status", it displays this new document as untracked. If it is renamed, it says it's renamed, if it's deleted it says it's deleted. If modified it says modified.
  
 
-2. We can acknoledge the new documnet using the "git add ."
+2. We can acknowledge the new documnet using the "git add ."
 
 
-3. We could unstage it we can any of the following two methods
+3. To unstage it we can use any of the following two methods
 
-i. git restore --staged "file name" or git restore --staged . (unstage every file)
+i. git restore --staged "file name" (unstage the file stated) or git restore --staged . (unstage every file)
 
-ii git reset "file name" or git reset --staged . (unstage every file)
+ii git reset "file name" (unstaged the file stated) or git reset --staged . (unstage every file)
 
 4. git diff --staged shows number of changes made but that are not yet committed
 
@@ -22,3 +22,5 @@ ii git reset "file name" or git reset --staged . (unstage every file)
 6. To change from main to new branch use "git branch checkout 'branch name'
 
 7. You use merge to connect your new branch to your main branch
+
+8. git log gives you information of all your previous comments. use git log -p -n to get n latest number of comments
